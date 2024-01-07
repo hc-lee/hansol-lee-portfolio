@@ -23,24 +23,24 @@ function Skills() {
 
                                 <h4 className="text-center">&lt;Frontend /&gt;</h4>
                                 <div className="technical-container">
-                                    <SkillCard imageSrc={"src/assets/icons/html-logo.svg"} items={[">HTML 5"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/css-logo.svg"} items={[">CSS 3"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/js.png"}
+                                    <SkillCard imageSrc={"/icons/html-logo.svg"} items={[">HTML 5"]}/>
+                                    <SkillCard imageSrc={"/icons/css-logo.svg"} items={[">CSS 3"]}/>
+                                    <SkillCard imageSrc={"/icons/js.png"}
                                                items={[">JavaScript", ">React", ">Bootstrap"]}/>
                                 </div>
 
                                 <h4 className="text-center">Backend &#123; &#125;</h4>
                                 <div className="technical-container">
-                                    <SkillCard imageSrc={"src/assets/icons/java.png"}
+                                    <SkillCard imageSrc={"/icons/java.png"}
                                                items={[">Java", ">Spring Boot", ">JPA / Hibernate", ">JUnit 5", ">Mockito"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/python.svg"} items={[">Python", ">Flask"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/node.svg"}
+                                    <SkillCard imageSrc={"/icons/python.svg"} items={[">Python", ">Flask"]}/>
+                                    <SkillCard imageSrc={"/icons/node.svg"}
                                                items={[">Node.js", ">Express.js", ">Sequelize.js"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/sql.svg"}
+                                    <SkillCard imageSrc={"/icons/sql.svg"}
                                                items={[">PostgreSQL", ">MySQL", ">MongoDB"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/aws2.svg"}
+                                    <SkillCard imageSrc={"/icons/aws2.svg"}
                                                items={[">Cloud Computing", ">Cloud Deployments"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/docker.svg"}
+                                    <SkillCard imageSrc={"/icons/docker.svg"}
                                                items={[">Docker", ">Containerization"]}/>
                                 </div>
 
@@ -51,12 +51,12 @@ function Skills() {
 
                                 <div className="soft-container">
 
-                                    <SkillCard imageSrc={"src/assets/icons/handshake.svg"} items={["Teamwork"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/brainstorm.svg"} items={["Problem Solving"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/target.svg"} items={["Goal Oriented"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/org.svg"} items={["Organized"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/adapt.svg"} items={["Adaptable"]}/>
-                                    <SkillCard imageSrc={"src/assets/icons/empathy.svg"} items={["Empathetic"]}/>
+                                    <SkillCard imageSrc={"/icons/handshake.svg"} items={["Teamwork"]}/>
+                                    <SkillCard imageSrc={"/icons/brainstorm.svg"} items={["Problem Solving"]}/>
+                                    <SkillCard imageSrc={"/icons/target.svg"} items={["Goal Oriented"]}/>
+                                    <SkillCard imageSrc={"/icons/org.svg"} items={["Organized"]}/>
+                                    <SkillCard imageSrc={"/icons/adapt.svg"} items={["Adaptable"]}/>
+                                    <SkillCard imageSrc={"/icons/empathy.svg"} items={["Empathetic"]}/>
 
                                 </div>
 

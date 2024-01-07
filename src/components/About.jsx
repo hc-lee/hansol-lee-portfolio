@@ -11,7 +11,7 @@ function About() {
                     <Row>
                         <Col>
                             <div className="left-col">
-                                <img className="profile-pic" src="src/assets/photos/headshot.jpg" alt="Profile picture"/>
+                                <img className="profile-pic" src="/photos/headshot.jpg" alt="Profile picture"/>
                             </div>
                         </Col>
 
@@ -34,7 +34,7 @@ function About() {
                                 I am always excited to learn new things and passionate about developing new technologies.
                                 It fascinates me to think about the future when computers empower individuals and societies to bear upon humanity's greatest challenges.
                             </p>
-                            <a href="src/assets/hansol-resume.pdf" download>
+                            <a href="/assets/hansol-resume.pdf" download>
                                 <Button variant="outline-light" size="md" className="resume-button">View Resume</Button>
                             </a>
                         </Col>
