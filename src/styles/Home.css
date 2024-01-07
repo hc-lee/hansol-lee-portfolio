@@ -1,0 +1,99 @@
+.background-container {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 450% 450%;
+    animation: gradient 35s ease infinite;
+    height: 100vh;
+    z-index: 1;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #232323;
+    margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -2;
+}
+
+
+.home-section {
+    animation-name: gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    z-index: -1;
+}
+
+.home-content {
+    text-align: center;
+    font-size: 4rem;
+    z-index: 3;
+}
+
+.name {
+    color: var(--slate);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.linkedin-icon {
+    font-size:3rem;
+    color: #ffffff;
+    margin: 0.5rem;
+}
+
+.linkedin-icon:hover {
+    color: #232323FF;
+}
+
+.github-icon {
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0.5rem;
+}
+
+.github-icon:hover {
+    color: #232323FF;
+}
+
+.about-button {
+    margin-top: 2rem;
+    border-color: var(--slate) !important;
+    color: var(--slate) !important;
+}
+
+.about-button:hover {
+    color: #232323FF !important;
+}

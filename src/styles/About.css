@@ -1,0 +1,44 @@
+.about-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#about {
+    background-color: var(--slate);
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-pic {
+    height: auto;
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+    vertical-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.resume-button {
+    margin: auto;
+    border-color: black !important;
+    color: black !important;
+}
+
+.resume-button:hover {
+    background-color: black !important;
+    color: var(--slate) !important;
+}
+
