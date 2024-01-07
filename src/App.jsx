@@ -17,6 +17,10 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <div className="construction-placeholder">
+            <img src="src/assets/icons/construction.svg" alt="construction" width={100} height={100}/>
+            <h3>Under Construction (1/07/24)</h3>
+        </div>
     </>
   )
 }

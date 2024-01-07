@@ -8,3 +8,12 @@
   color: #232323;
 }
 
+
+.construction-placeholder {
+  background-color: #ffc500;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
