@@ -31,7 +31,7 @@ function Projects() {
 
                         <ProjectCard name={"DreamScape.ai"}
                                      imageSrc={"/photos/dreamscape.PNG"}
-                                     description={"Full-stack JavaScript web-application for analysis of short nucleotide sequences."}
+                                     description={"Full-stack Java and JavaScript web application that allows users to visualize and log their dreams through an interactive AI-driven platform."}
                                      languages={"Java, Spring Boot, JavaScript, React"}
                                      hasRepo={true}
                                      repoUrl={"https://github.com/hc-lee/DreamScape-Server"}
@@ -43,7 +43,7 @@ function Projects() {
 
                         <ProjectCard name={"MyHealthCare"}
                                      imageSrc={"/icons/mhc.jpg"}
-                                     description={"Full-stack JavaScript web-application for analysis of short nucleotide sequences."}
+                                     description={"Personalized health and wellness application that tailors to user biometrics and prescriptions."}
                                      languages={"JavaScript, React, Node.js, Express.js, Sequelize.js, PostgreSQL"}
                                      hasRepo={true}
                                      repoUrl={"https://github.com/hanhuazhu/winterhackathon"}
@@ -54,7 +54,7 @@ function Projects() {
 
                         <ProjectCard name={"Othello"}
                                      imageSrc={"/photos/othello.PNG"}
-                                     description={"Full-stack JavaScript web-application for analysis of short nucleotide sequences."}
+                                     description={"Command-line interface for the classic board game Othello, written in Python."}
                                      languages={["Python (CLI)"]}
                                      hasRepo={true}
                                      repoUrl={"https://github.com/hc-lee/reversi-othello"}
@@ -62,7 +62,7 @@ function Projects() {
 
                         <ProjectCard name={"Web Portfolio"}
                                      imageSrc={"/photos/portfolio.PNG"}
-                                     description={"Overhauled web portfolio written with React + Vite to showcase projects and introduce myself."}
+                                     description={"Overhauled web portfolio with JavaScript + React and built with Vite to showcase projects and introduce myself."}
                                      languages={"JavaScript, React, Bootstrap"}
                                      hasRepo={false}
                                      isLive={false}
