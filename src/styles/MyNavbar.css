@@ -6,6 +6,33 @@
     background-color: transparent;
 }
 
+.bg-custom-expanded {
+    color: white;
+    background-color: rgba(35, 35, 35, 0.82);
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+}
+
+.nav-link-expanded {
+    font-size: 1.2rem !important;
+    color: var(--slate) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.navbar-brand-expanded {
+    font-size: 1.5rem !important;
+    color: var(--slate) !important;
+}
+
 .me-auto {
     margin-left: 1rem;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2.8s;
 }

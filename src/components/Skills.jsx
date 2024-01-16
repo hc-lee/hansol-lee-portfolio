@@ -3,6 +3,8 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import "../styles/Skills.css";
 import SkillCard from "./SkillCard.jsx";
+import {faScrewdriverWrench} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Skills() {
 
@@ -10,7 +12,10 @@ function Skills() {
         <>
             <section id="skills">
                 <div className="skills-container">
+                    <FontAwesomeIcon icon={faScrewdriverWrench} size={"2x"}/>
+                    <br/>
                     <h1>Skills</h1>
+
                     <div className="tabs-container">
                         <Tabs
                             defaultActiveKey="tech"

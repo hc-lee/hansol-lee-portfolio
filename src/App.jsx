@@ -7,6 +7,8 @@ import Skills from "./components/Skills.jsx";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+
 
 function App() {
 
@@ -17,10 +19,11 @@ function App() {
         <About />
         <Skills />
         <Projects />
-        <div className="construction-placeholder">
-            <img src="/icons/construction.svg" alt="construction" width={100} height={100}/>
-            <h3>Under Construction (1/07/24)</h3>
-        </div>
+        <Contact />
+        {/*<div className="construction-placeholder">*/}
+        {/*    <img src="/icons/construction.svg" alt="construction" width={100} height={100}/>*/}
+        {/*    <h3>Under Construction (1/07/24)</h3>*/}
+        {/*</div>*/}
     </>
   )
 }

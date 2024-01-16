@@ -5,6 +5,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {Button} from "react-bootstrap";
+import Fade from 'react-reveal/Fade';
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <section id={"home"}>
                 <div className="background-container">
                     <Background/>
+                    <Fade left cascade>
                     <div className="home-section">
                         <div className="home-content">
                             <p className="home-content"> Hey! I'm <span className="name">Hansol.</span></p>
@@ -28,6 +30,7 @@ function Home() {
                         <Button href="#about" variant="outline-light" size="lg" className="about-button">More
                             about me</Button>
                     </div>
+                    </Fade>
                 </div>
             </section>
         </>

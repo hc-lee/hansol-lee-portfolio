@@ -1,0 +1,86 @@
+.project-card {
+    width: 30rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 1.5rem;
+    box-shadow: #1a1a1a 0 4px 9px -5px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+@media (max-width: 768px) {
+
+    .project-card {
+        width: 90%;
+    }
+
+}
+
+.project-card-image {
+    height: 30%;
+    width: 50%;
+}
+
+.name-column {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-card-image img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.project-card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem !important;
+}
+
+.project-card-text {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.project-card-text li {
+    margin-bottom: 8px;
+}
+
+.github-button {
+    height: 2.2rem;
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--slate);
+    background-color: #1a1a1a !important;
+    border-color: #1a1a1a !important;
+}
+
+.github-button:hover {
+    background-color: #6e6e6e !important;
+    border-color: #6e6e6e !important;
+}
+
+.icon-here {
+    margin-right: 0.5rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.button-div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
