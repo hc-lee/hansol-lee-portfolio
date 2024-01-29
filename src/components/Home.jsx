@@ -13,13 +13,13 @@ function Home() {
             <section id={"home"}>
                 <div className="background-container">
                     <Background/>
-                    <Fade left cascade>
+
                     <div className="home-section">
-                        <div className="home-content">
-                            <p className="home-content"> Hey! I'm <span className="name">Hansol.</span></p>
+                        <div className="home-content animate__animated animate__fadeIn">
+                            <p className="home-content "> Hey! I'm <span className="name">Hansol.</span></p>
                             <p>Engineer | Programmer | Scientist | Learner | Hiker | Musician</p>
                         </div>
-                        <div className="icons">
+                        <div className="icons animate__animated animate__fadeIn">
                             <a href="https://linkedin.com/in/hansol-c-lee" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon"/>
                             </a>
@@ -27,10 +27,10 @@ function Home() {
                                 <FontAwesomeIcon icon={faGithub} className="github-icon"/>
                             </a>
                         </div>
-                        <Button href="#about" variant="outline-light" size="lg" className="about-button">More
+                        <Button href="#about" variant="outline-light" size="lg" className="about-button animate__animated animate__fadeIn">More
                             about me</Button>
                     </div>
-                    </Fade>
+
                 </div>
             </section>
         </>

@@ -97,3 +97,7 @@ p {
 .about-button:hover {
     color: #232323FF !important;
 }
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2.8s;
+}
