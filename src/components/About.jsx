@@ -39,7 +39,7 @@ function About() {
                                 I am always excited to learn new things and passionate about developing new technologies.
                                 It fascinates me to think about the future when computers empower individuals and societies to bear upon humanity's greatest challenges.
                             </p>
-                            <a href="/assets/hansol-resume.pdf" download>
+                            <a href="/assets/resume-hansol.pdf" download>
                                 <Button variant="outline-light" size="md" className="resume-button">View Resume</Button>
                             </a>
                         </Col>
